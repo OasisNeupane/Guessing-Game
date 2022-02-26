@@ -5,7 +5,7 @@ let paragraph = document.getElementById("para");
 let body = document.getElementById("body");
 let count = 0;
 let reset = document.getElementById("reset");
-randomNumber = Math.floor(Math.random() * 10);
+randomNumber = Math.floor((Math.random() * 10) + 1);
 
 console.log(randomNumber);
 
