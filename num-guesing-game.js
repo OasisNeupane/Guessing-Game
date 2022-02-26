@@ -27,7 +27,7 @@ function seeForRightAnswer(e) {
         if (randomNumber == e.target.innerHTML) {
             paragraph.innerHTML = "Correct you got it right !";
             body.style.backgroundColor = "lightgreen"
-            e.target.style.backgroundColor = "green";
+            e.target.style.backgroundColor = "lightgreen";
             paragraph.style.color = "black";
 
             for (let i = 0; i < buttons.length; i++) {
@@ -37,7 +37,7 @@ function seeForRightAnswer(e) {
         } else if (randomNumber < e.target.innerHTML) {
             paragraph.innerHTML = "Your number is too high";
             paragraph.style.color = "black";
-            e.target.style.backgroundColor = "red";
+            e.target.style.backgroundColor = "lightcoral";
             body.style.backgroundColor = "lightcoral"
 
         } else {
